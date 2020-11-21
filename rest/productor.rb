@@ -1,6 +1,7 @@
 require 'rest-client'
 
 puts "Enviando ping!"
-RestClient.post 'http://localhost:4567/ping', mensaje: 'ping'
+resultado = RestClient.post 'http://localhost:4567/ping', mensaje: 'ping'
 
 puts "Ping enviado!"
+puts "Pong recibido: #{resultado}"
