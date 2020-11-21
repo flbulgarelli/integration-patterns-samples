@@ -1,7 +1,7 @@
 require 'sqlite3'
 db = SQLite3::Database.new "ping.db"
 
-loop
+loop do
   sleep 0.5
 
   begin

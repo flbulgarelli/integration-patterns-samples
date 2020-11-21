@@ -1,4 +1,4 @@
-loop
+loop do
   sleep 0.5
   if File.exist? "ping"
     puts "Recibiendo ping!"

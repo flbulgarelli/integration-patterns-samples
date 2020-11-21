@@ -7,8 +7,6 @@ channel = conn.create_channel
 pings  = channel.queue("ping")
 pongs  = channel.queue("pong")
 
-
-
 pings.subscribe(block: true) do |delivery_info, properties, payload|
   puts "Recibiendo #{payload}, con metadata #{properties.inspect}"
 
