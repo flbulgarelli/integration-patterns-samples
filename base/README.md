@@ -11,6 +11,12 @@ Para ejecutar este ejemplo hay que tener `sqlite` instalado localmente. Luego:
 bundle install
 ```
 
+Finalmente, es necesario crear la tabla que será usada como memoria compartida:
+
+```bash
+bundle exec ruby setup.rb
+```
+
 ## Ejecución
 
 ```bash
