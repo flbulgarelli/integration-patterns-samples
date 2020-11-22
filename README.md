@@ -9,7 +9,7 @@ Este repositorio contiene ejemplos con fines didácticos sobre cuatro patrones d
 
 # Notas
 
-Los cuatro ejemplos se inician ejecutando dos procesos, en terminales diferentes:
+🏁 Los cuatro ejemplos se inician ejecutando dos procesos, en terminales diferentes:
 
 ```bash
 # productor
@@ -21,7 +21,9 @@ bundle exec ruby consumidor.rb
 # alternativa: consumidor con delay simulado (expresado en segundos)
 DELAY=3 bundle exec ruby consumidor.rb
 ```
+:eyes: Cada uno contiene además el diagrama de despligue correspondiente. 
 
-:warning: Los ejemplos no pretenden ser "correctos" desde el punto de vista de seguridad o buenas prácticas de programación sino claros desde el punto de vista didáctico, aún sin conocimiento de las tecnologías subyacentes ni del lenguaje ruby.
+:warning: Los ejemplos **no pretenden** ser _correctos_ desde el punto de vista de seguridad o buenas prácticas de programación sino claros desde el punto de vista didáctico, aún sin conocimiento de las tecnologías subyacentes ni del lenguaje ruby.
+
 
 
