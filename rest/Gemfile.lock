@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
@@ -11,6 +12,9 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     netrc (0.11.0)
+    nio4r (2.5.9)
+    puma (6.4.0)
+      nio4r (~> 2.0)
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
@@ -34,8 +38,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  puma
   rest-client
   sinatra
 
 BUNDLED WITH
-   2.1.4
+   2.4.21

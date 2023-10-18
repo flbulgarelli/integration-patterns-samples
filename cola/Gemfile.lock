@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     amq-protocol (2.3.2)
     bunny (2.17.0)
@@ -11,4 +12,4 @@ DEPENDENCIES
   bunny
 
 BUNDLED WITH
-   2.1.4
+   2.4.21

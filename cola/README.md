@@ -14,6 +14,12 @@ Luego:
 bundle install
 ```
 
+Alternativamente, se puede iniciar `rabbit` empleando `docker`:
+
+```
+docker run --rm -it -p 5672:5672 --name rabbit rabbitmq:
+```
+
 ## Ejecución
 
 ```bash

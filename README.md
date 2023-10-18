@@ -21,9 +21,6 @@ bundle exec ruby consumidor.rb
 # alternativa: consumidor con delay simulado (expresado en segundos)
 DELAY=3 bundle exec ruby consumidor.rb
 ```
-:eyes: Cada uno contiene además el diagrama de despligue correspondiente. 
+:eyes: Cada uno contiene además el diagrama de despliegue correspondiente.
 
 :warning: Los ejemplos **no pretenden** ser _correctos_ desde el punto de vista de seguridad o buenas prácticas de programación sino claros desde el punto de vista didáctico, aún sin conocimiento de las tecnologías subyacentes ni del lenguaje ruby.
-
-
-
